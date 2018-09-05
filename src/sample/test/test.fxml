@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootpane" prefHeight="330.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.test.testController">
+   <children>
+      <JFXTextField fx:id="nDays" labelFloat="true" layoutY="36.0" prefHeight="34.0" prefWidth="400.0" promptText="No. of days a book can be kept">
+         <font>
+            <Font size="15.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="finePerDay" labelFloat="true" layoutY="103.0" prefHeight="34.0" prefWidth="400.0" promptText="Fine per day">
+         <font>
+            <Font size="15.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="admin" labelFloat="true" layoutY="175.0" prefHeight="34.0" prefWidth="400.0" promptText="Admin">
+         <font>
+            <Font size="15.0" />
+         </font></JFXTextField>
+      <JFXPasswordField fx:id="password" labelFloat="true" layoutY="247.0" prefHeight="43.0" prefWidth="400.0" promptText="Password">
+         <font>
+            <Font size="15.0" />
+         </font></JFXPasswordField>
+      <JFXButton buttonType="RAISED" layoutY="315.0" onAction="#saveButtonAction" prefHeight="43.0" prefWidth="200.0" stylesheets="@button.css" text="Save" />
+      <JFXButton buttonType="RAISED" layoutX="200.0" layoutY="315.0" onAction="#cancelButtonAction" prefHeight="43.0" prefWidth="200.0" stylesheets="@button.css" text="Cancel" />
+   </children>
+</AnchorPane>

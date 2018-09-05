@@ -1,0 +1,8 @@
+.jfx-button:hover{
+
+    -fx-pref-width: 80;
+    -fx-pref-height: 42;
+}
+.glyph-icon{
+    -fx-fill: white;
+}

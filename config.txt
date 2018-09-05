@@ -1,0 +1,1 @@
+{"nDAysWithoutFine":30,"finePerDay":10,"username":"ali","password":"e697ef18d3fa82e0fcd427a989a86c694b547c64"}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="536.0" prefWidth="715.0" style="-fx-background-color: #767676;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.about.aboutController">
+   <children>
+      <Label alignment="CENTER" prefHeight="103.0" prefWidth="715.0" style="-fx-background-color: #0063B1;" text="Library Managment System" textFill="WHITE">
+         <font>
+            <Font size="26.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Text fill="#e4e4e4" fontSmoothingType="LCD" layoutX="14.0" layoutY="218.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed By" wrappingWidth="180.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="14.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Muhammad Ali Hamza" wrappingWidth="332.13671875">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Text>
+      <Text fill="#e4e4e4" fontSmoothingType="LCD" layoutX="14.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contact:" wrappingWidth="180.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" fontSmoothingType="LCD" layoutX="14.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="alihamza000767@gmail.com" wrappingWidth="332.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="232.0" fitWidth="170.0" layoutX="553.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screenshot%20(53).jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="650.0" layoutY="500.0" prefHeight="36.0" prefWidth="65.0" style="-fx-background-color: #0063B1;" text="L M S" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

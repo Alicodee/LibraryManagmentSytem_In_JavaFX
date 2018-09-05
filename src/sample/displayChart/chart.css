@@ -1,0 +1,9 @@
+.default-color0.chart-pie{
+    -fx-pie-color:blue;
+}
+.default-color1.chart-pie{
+    -fx-pie-color:#90CAF9;
+}
+.chart-legend{
+    -fx-background-color: lightyellow;
+}

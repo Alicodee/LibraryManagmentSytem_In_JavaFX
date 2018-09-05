@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="splashRoot" prefHeight="303.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.splash.splashController">
+   <children>
+      <ImageView fitHeight="372.0" fitWidth="606.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@sms.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="230.0" prefHeight="37.0" prefWidth="161.0" text="Library" textFill="#fffafa">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="115.0" layoutY="281.0" prefHeight="37.0" prefWidth="161.0" text="System" textFill="#fffafa">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <Label layoutX="222.0" layoutY="141.0" prefHeight="37.0" prefWidth="195.0" text="Wellcome" textFill="#fffafa">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
